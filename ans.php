@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <?php include ('inc/head.php'); ?>
+   <?php include('inc/head.php'); ?>
 </head>
 <body>
 <div class=wrapper>
@@ -74,7 +74,7 @@ foreach ( $_REQUEST as $key => $value ) {
 <div class="panel-body"><span class="lead"><small>Thank you for participating in this self-assessment. The email you will receive will contain the full results. You may close this window when ready.</small></span></div>
 </div>
    </div>
-      <?php include ( 'inc/footer.php' ); ?>
+      <?php include('inc/footer.php'); ?>
 </body>
 </html>
 

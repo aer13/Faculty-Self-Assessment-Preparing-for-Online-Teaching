@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <?php include ('inc/head.php'); ?>
+   <?php include('inc/head.php'); ?>
 </head>
 <body>
-   <?php include ( 'inc/navbar.php' ); ?>
+   <?php include('inc/navbar.php'); ?>
    <div class="container">
-      <?php include ('inc/wizard.php'); ?>
+      <?php include('inc/wizard.php'); ?>
       <form role="form" action="ans.php" method="post" data-toggle=validator>
-         <?php include ( 'inc/step1.php' ); ?>
-         <?php include ( 'inc/step2.php' ); ?>
-         <?php include ( 'inc/cat1.php' );  ?>
-         <?php include ( 'inc/cat2.php' );  ?>
-         <?php include ( 'inc/cat3.php' );  ?>
+         <?php include('inc/step1.php'); ?>
+         <?php include('inc/step2.php'); ?>
+         <?php include('inc/cat1.php');  ?>
+         <?php include('inc/cat2.php');  ?>
+         <?php include('inc/cat3.php');  ?>
          <div class="row setup-content" id="step-33">
             <div class="col-xs-6 col-md-offset-3">
                <div class="col-md-12">
@@ -36,10 +36,10 @@
       </form>
    </div>
 
-   <?php include ( 'inc/footer.php' ); ?>
+   <?php include('inc/footer.php'); ?>
 
    <script>
-   <?php include ( 'js/wizard.js' ); ?>
+   <?php include('js/wizard.js'); ?>
    </script>
 </body>
 </html>
