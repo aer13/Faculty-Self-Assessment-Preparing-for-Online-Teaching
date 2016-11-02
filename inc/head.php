@@ -3,10 +3,6 @@
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <link href="css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
    <link href="css/steps.css" rel="stylesheet" type="text/css">
-   <script src="js/jquery-latest.js"></script>
-   <script src="js/bootstrap.min.js"></script>
-   <script src="js/jquery.bootstrap.wizard.js"></script>
-   <script src="js/validator.js"></script>
    <!-- HTML5 shim for IE backwards compatibility -->
       <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>

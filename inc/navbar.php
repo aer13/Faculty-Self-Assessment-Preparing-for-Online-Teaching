@@ -1,10 +1,10 @@
 <div class="navbar-top">
-         <h3 align=center>
+         <div align=center>
             <?php include('psuimg.php'); ?>
-            <p class="text-center">
-               <strong><?php echo $ia['top']['title']; ?></strong>
-            </p>
-         </h3>
+            <h1 class="h3 text-center">
+               <?php echo $ia['top']['title']; ?>
+            </h1>
+         </div>
          <br />
 </div>
 

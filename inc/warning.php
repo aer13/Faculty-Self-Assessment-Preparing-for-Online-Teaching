@@ -1,14 +1,12 @@
-         <!-- start WARNING box -->
-         <div class="panel panel-danger">
-            <div class="panel-heading">
-                <h4 class="text-center"><strong><span
-                   class="label label-danger">
-                   <?php echo $ia['qheader']['title']; ?>
-                </span></strong></h4>
-                <span class="lead text-center">
-                   <p align=center>
-                   <?php echo $ia['qheader']['body']; ?>
-                </span>
-             </div>
-          </div>
-          <!-- end WARNING box -->
+<!-- start WARNING box -->
+<div class="alert alert-danger">
+    <h4 class="text-center">
+        <span class="label label-danger">
+        <?php echo $ia['qheader']['title']; ?>
+        </span>
+    </h4>
+    <p class="lead text-center">
+        <?php echo $ia['qheader']['body']; ?>
+    </p>
+</div>
+<!-- end WARNING box -->

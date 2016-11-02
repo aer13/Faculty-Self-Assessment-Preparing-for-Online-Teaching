@@ -12,7 +12,7 @@
             for ( $i = 1; $i <= 33; $i ++ ) {
          ?>
                <div class="stepwizard-step">
-                 <a href="#step-<?php echo $i; ?>" type="button"
+                 <a href="#step-<?php echo $i; ?>" role="button"
                     class="btn
                     <?php
                        if ( $i == 1 )
