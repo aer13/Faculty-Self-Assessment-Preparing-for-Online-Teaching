@@ -7,9 +7,3 @@
       <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
       <![endif]-->
-<?php
-   $datadir = "inc";
-   $datafile = "a.ini";
-   $datapath = $datadir . "/" . $datafile;
-   $ia = parse_ini_file ( $datapath, true );
-?>

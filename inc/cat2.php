@@ -71,10 +71,10 @@
                <div class="help-block with-errors"> </div>
                <br>
 
-               <button class="btn btn-primary prevBtn btn-md pull-left"
+               <button class="btn btn-primary prevBtn btn-lg"
                        type="button">Previous</button>
 &nbsp; &nbsp;
-               <button class="btn btn-primary nextBtn btn-md"
+               <button class="btn btn-primary nextBtn btn-lg"
                        type="submit">Next</button>
             </div>
          </div>
