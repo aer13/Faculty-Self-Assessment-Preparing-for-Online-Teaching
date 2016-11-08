@@ -28,7 +28,7 @@
                         </span>
                      </div>
                   </div>
-                  <button class="btn btn-success nextBtn btn-md pull-right"
+                  <button class="btn btn-success btn-lg pull-right"
                           type="submit">Finish</button>
                </div>
             </div>
@@ -37,9 +37,5 @@
    </div>
 
    <?php include('inc/footer.php'); ?>
-
-   <script>
-   <?php include('js/wizard.js'); ?>
-   </script>
 </body>
 </html>
