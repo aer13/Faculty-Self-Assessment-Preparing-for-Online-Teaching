@@ -33,7 +33,7 @@
             $body[] = <<<EOF
     
             <td><small>{$i}</small></td>\n
-            <td><small{$myvar[$i]}</small></td>\n
+            <td><small>{$myvar[$i]}</small></td>\n
             <td><small>{$ia['radio'][($vnum - 1)]}</small></td>\n
             <td><small>{$ia['feedback'][$answerpoints]}</small></td>\n
     
