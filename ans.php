@@ -74,8 +74,7 @@ EOF;
 <div class=wrapper>
     <div class="container">
         <p class=lead>
-            Hello, <?php echo $_REQUEST['firstname'] ?>. We have emailed your results
-            to <?php echo $_REQUEST['email'] ?>, but here they are in a nutshell:
+            Hello, <?php echo $_REQUEST['firstname'] ?>. Here are your results:
         </p>
 
         <div class="alert alert-<?php echo $mLevel ?>">
@@ -104,7 +103,7 @@ EOF;
         <br/>
         <div class="panel panel-success">
             <div class="panel-heading"><span class=h4>Thank You!</span></div>
-            <div class="panel-body"><span class="lead"><small>Thank you for participating in this self-assessment. The email you will receive will contain the full results. You may close this window when ready.</small></span>
+            <div class="panel-body"><span class="lead"><small>Thank you for participating in this self-assessment.</small></span>
             </div>
         </div>
     </div>

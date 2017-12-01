@@ -2,6 +2,7 @@
    require_once "inc/functions.php";
    $ia = getQuestionData();
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
